@@ -63,6 +63,7 @@ body {
 .search-box input::placeholder {
     font-size: 20px;
     font-weight: 500;
+    opacity: 0.8;
     color: var(--base-color);
     text-transform: capitalize;
 }
@@ -155,7 +156,6 @@ body {
 
 .weather-details i {
     margin-right: 10px;
-    margin-top: 6px;
     font-size: 24px;
     color: var(--base-color);
 }
