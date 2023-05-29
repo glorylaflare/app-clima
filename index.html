@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/styless.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
  
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="search-bar">
+        <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" placeholder="Insira sua localização">
             <button class="fa-solid fa-magnifying-glass"></button>
@@ -22,32 +22,35 @@
         <!-- not found space -->
         <div class="weather-box">
             <img src="./src/imgs/clear.png">
-            <p class="temperature">18°C</p>
-            <p class="description">parcialmente nublado</p>
+            <p class="temperature">22°C</p>
+            <p class="description">nublado</p>
         </div>
 
         <div class="weather-details">
             <div class="humidity">
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
-                    <span></span>
+                    <span>25%</span>
                     <p>Umidade</p>
                 </div>
             </div>
             <div class="wind">
                 <i class="fa-solid fa-wind"></i>
                 <div class="text">
-                    <span></span>
+                    <span>2 km/h</span>
                     <p>Vento</p>
                 </div>
             </div>
             <div class="rain">
                 <i class="fa-solid fa-cloud-rain"></i>
                 <div class="text">
-                    <span></span>
+                    <span>10%</span>
                     <p>Chuva</p>
                 </div>
             </div>
+        </div>
+        <div class="current-time">
+            <p>00:00</p>
         </div>
 
     </div>
