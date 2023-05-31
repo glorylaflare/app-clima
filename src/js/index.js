@@ -106,6 +106,7 @@ search.addEventListener('click', () => {
 
             weatherBox.style.display = '';
             weatherDetails.style.display = '';
+            localTime.style.display = '';
             weatherBox.classList.add('fadeIn');
             weatherDetails.classList.add('fadeIn');
             localTime.classList.add('fadeIn');
